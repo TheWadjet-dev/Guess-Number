@@ -40,12 +40,12 @@ To run this project, you'll need:
 
 1. **Build the Docker image**:
     ```bash
-    docker build -t guess-number-game .
+    docker build -t guess-number .
     ```
 
 2. **Run the Docker container**:
     ```bash
-    docker run -p 5000:5000 guess-number-game
+    docker run -p 5000:5000 guess-number
     ```
 
 3. **Access the game**:
